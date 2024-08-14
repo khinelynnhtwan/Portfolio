@@ -574,10 +574,6 @@ video {
   margin: auto;
 }
 
-.m-10 {
-  margin: 2.5rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -591,21 +587,6 @@ video {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-}
-
-.mx-6 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
-.mx-\[\] {
-  margin-left: ;
-  margin-right: ;
-}
-
-.mx-\[20px\] {
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .ml-2 {
@@ -725,43 +706,6 @@ video {
   background-color: rgb(224 242 254 / var(--tw-bg-opacity));
 }
 
-.bg-purple-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 245 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[url\] {
-  background-color: url;
-}
-
-.bg-\[url\(\)\] {
-  background-image: url();
-}
-
-.bg-\[url\(src\\img\\earth\.jpg\)\] {
-  background-image: url(src\img\earth.jpg);
-}
-
-.bg-\[url\(\'img\\earth\.jpg\'\)\] {
-  background-image: url('img\earth.jpg');
-}
-
-.bg-\[url\(\'\.\/img\\earth\.jpg\'\)\] {
-  background-image: url('./img\earth.jpg');
-}
-
-.bg-\[url\(\'\.\/img\/earth\.jpg\'\)\] {
-  background-image: url('./img/earth.jpg');
-}
-
-.bg-\[url\(\'\.\/imgearth\.jpg\'\)\] {
-  background-image: url('./imgearth.jpg');
-}
-
 .p-3 {
   padding: 0.75rem;
 }
@@ -780,6 +724,11 @@ video {
   padding-right: 8rem;
 }
 
+.px-44 {
+  padding-left: 11rem;
+  padding-right: 11rem;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -788,47 +737,6 @@ video {
 .py-\[15px\] {
   padding-top: 15px;
   padding-bottom: 15px;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-44 {
-  padding-left: 11rem;
-  padding-right: 11rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
-.pt-36 {
-  padding-top: 9rem;
 }
 
 .pt-5 {
@@ -849,19 +757,14 @@ video {
   line-height: 2.5rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
+.text-6xl {
+  font-size: 3.75rem;
   line-height: 1;
 }
 
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .font-bold {

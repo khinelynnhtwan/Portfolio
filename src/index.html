@@ -1,20 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwinds Css</title>
-    <link rel="stylesheet" href="./output.css">
-</head>
-<body>
-    <div class="border p-4 m-3">
-        <h1 class="text-4xl">Hello Welcome sad</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus cumque distinctio laboriosam corrupti, consequatur fugit saepe veniam ad modi illum corporis alias ipsum, molestiae possimus doloremque, commodi enim nobis.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <!-- */ header /* -->
+    <div
+      class="flex bg-[#f4f4f4] text-[#4e4e4e] border-b border-slate-300/50 sticky top-0 z-[10]"
+    >
+      <div class="w-[1200px] m-auto justify-between flex items-center">
+        <img class="size-10" src="./img/messenger.png" alt="" />
+        <div class="max-md:hidden w-[600px] flex justify-between items-center">
+          <a class="border-b-[3px] py-5 px-3 sora-regular" href="">Home</a>
+          <a href="" class="border-b-[3px] py-5 px-3 sora-regular">About Me</a>
+          <a href="" class="border-b-[3px] py-5 px-3 sora-regular">Skills</a>
+          <a href="" class="border-b-[3px] py-5 px-3 sora-regular">Projects</a>
+          <a href="" class="border-b-[3px] py-5 px-3 sora-regular">Blogs</a>
+
+          <div class="flex">
+            <button
+              class="font-bold text-[#4e4e4e] rounded-full border-2 border-[#7b7b7b] py-[7px] px-4 hover:bg-gray-200 active:bg-gray-300"
+            >
+              Contact Me
+            </button>
+          </div>
+        </div>
+        <img class="hidden max-sm:block ml-2" src="./img/menuIcon.svg" alt="" />
+      </div>
     </div>
 
-    
-<div class="bg-sky-100">Hello</div>
+    <!-- */ Hero_Section /* -->
 
-    <input type="text" placeholder="username" class="border p-3 m-3">
-</body>
+    <div class="bg-[#f4f4f4] text-[#1d1d1d]">
+      <div
+        class="max-w-[1200px] my-0 mx-auto py-48 px-14 text-center max-md:w-[100%]"
+      >
+        <h1 class="text-8xl font-bold sora-regular relative -top-10">
+          Code with Passion, Design with Purpose.
+        </h1>
+        <p class="text-2xl relative -top-5 px-24 text-[#606060]">
+          Full Stack Developer creating innovative, user-focused web
+          applications with JavaScript, React, and Node.js expertise.
+        </p>
+      </div>
+    </div>
+
+    <!-- */ About Me /*-->
+    <div class="bg-[#1d1d1d] text-[#f4f4f4] w-full">
+      <div class="max-w-[1200px] m-auto py-12 px-24">
+        <div class="text-4xl pb-12 font-bold text-center">About Me</div>
+        <div class="flex items-top justify-center">
+          <div class="w-[30%] z-[2]">
+            <img src="./img/klt.jpg" alt="" class="" />
+          </div>
+          <div
+            class="absolute z-[1] right-[980px] top-[820px] w-[258px] h-[440px] border-2 border-[#333333]"
+          ></div>
+          <div class="text-lg pl-14 w-[60%] text-justify">
+            <p>
+              Hello, and welcome to my portfolio! My name is [Your Name], and I
+              am a Full Stack Developer with a deep passion for crafting
+              dynamic, user-centric web applications. My journey in the world of
+              web development has been a blend of continuous learning, creative
+              problem-solving, and a relentless pursuit of excellence. Through
+              this introduction, I’d like to share with you how I embarked on
+              this journey, the experiences that have shaped me, and what drives
+              me to keep pushing the boundaries in the tech world.
+              <br />
+              <br />
+              As I continue my journey in web development, I am excited about
+              the future and the opportunities that lie ahead. I am particularly
+              interested in exploring areas such as machine learning, artificial
+              intelligence, and blockchain technology.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- */ Skills /* -->
+
+    <div class="bg-[#f4f4f4] w-full">
+      <div class="max-w-[1200px] m-auto py-12">
+        <h1 class="text-4xl pb-12 font-bold text-center">Skills</h1>
+        <div class="flex items-top justify-between">
+          <div class="w-[50%] flex flex-col">
+            <div
+              class="w-[400px] flex justify-between py-7 text-2xl font-medium"
+            >
+              <a href="#">Skills</a>
+              <a href="#">Experience</a>
+              <a href="#">Achievement</a>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Laboriosam, mollitia, ipsum nulla, ullam aliquam quos rerum modi
+                eos neque repellat doloremque doloribus quam provident esse
+                voluptas possimus inventore a repellendus.
+              </p>
+            </div>
+          </div>
+          <div class="w-[40%]">
+            <img src="./img/heroImage.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- */projects /* -->
+
+    <div class="bg-[#f4f4f4] w-full">
+      <div class="max-w-[1200px] m-auto py-12">
+        <h1 class="text-4xl font-bold text-center">Projects</h1>
+        <div
+              class="w-[600px] m-auto flex justify-between py-8 text-2xl font-medium"
+            >
+              <a href="#">Graphic Design</a>
+              <a href="#">UI/UX</a>
+              <a href="#">Web Developing</a>
+            </div>
+        <div class="flex max-md:flex-wrap justify-between">
+          <div class="bg-[#eaeaea] m-3 w-[400px] h-[300px] rounded-lg">
+            <img src="./img/img_1.jpg" alt="" class="object-fill rounded-t-lg">
+            
+          </div>
+          <div class="bg-[#eaeaea] m-3 w-[400px] h-[300px] rounded-lg">
+            <img src="./img/img_2.jpg" alt="" class=" rounded-t-lg">
+            
+          </div>
+          <div class="bg-[#eaeaea] m-3 w-[400px] h-[300px] rounded-lg">
+            <img src="./img/img_3.jpg" alt="" class=" rounded-t-lg">
+            
+          </div>
+        </div>
+        <div class="flex max-md:flex-wrap justify-between">
+          <div class="bg-[#eaeaea] m-3 w-[400px] h-[300px] rounded-lg">
+            <img src="./img/img_1.jpg" alt="" class="object-fill rounded-t-lg">
+            
+          </div>
+          <div class="bg-[#eaeaea] m-3 w-[400px] h-[300px] rounded-lg">
+            <img src="./img/img_2.jpg" alt="" class=" rounded-t-lg">
+            
+          </div>
+          <div class="bg-[#eaeaea] m-3 w-[400px] h-[300px] rounded-lg">
+            <img src="./img/img_3.jpg" alt="" class=" rounded-t-lg">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- */ Blog /* -->
+
+    <div class="bg-[#f4f4f4] w-full">
+      <div class="max-w-[1200px] m-auto py-12">
+        <h1 class="text-4xl pb-12 font-bold text-center">Blogs</h1>
+        <div class="flex max-md:flex-wrap justify-between">
+          <div class="bg-[#eaeaea] m-3 w-[400px] h-[350px] rounded-lg">
+            <img src="./img/img_1.jpg" alt="" class="object-cover object-center w-[400px] h-[250px] rounded-t-lg">
+            <p class="p-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam,
+              ex!
+            </p>
+          </div>
+          <div class="bg-[#eaeaea] m-3 w-[400px] h-[350px] rounded-lg">
+            <img src="./img/img_2.jpg" alt="" class="object-cover object-center w-[400px] h-[250px] rounded-t-lg">
+            <p class="p-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam,
+              ex!
+            </p>
+          </div>
+          <div class="bg-[#eaeaea] m-3 w-[400px] h-[350px] rounded-lg">
+            <img src="./img/img_3.jpg" alt="" class="object-cover object-center w-[400px] h-[250px] rounded-t-lg">
+            <p class="p-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam,
+              ex!
+            </p>
+          </div>
+        </div>
+        <button
+          class="flex m-auto font-medium text-[#4e4e4e] rounded-full border-2 border-[#7b7b7b] py-2 px-4 hover:bg-gray-200 active:bg-gray-300"
+        >
+          See More
+        </button>
+      </div>
+    </div>
+
+    <!-- */contact me /* -->
+    <div class="bg-[#322e52] w-full h-[200px]">
+      <div>Contact Me</div>
+    </div>
+
+    <!-- */footer /* -->
+
+    <div class="bg-[#262744] w-full h-[100px]">
+      <div>Footer</div>
+    </div>
+
+
+  </body>
 </html>

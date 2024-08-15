@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Padauk:wght@400;700&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Padauk:wght@400;700&family=Sora:wght@100..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Geologica:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Padauk:wght@400;700&family=Sora:wght@100..800&display=swap');
 
 .pt-sans-regular {
     font-family: "PT Sans", sans-serif;
@@ -51,3 +47,9 @@
     font-weight: 600;
     font-style: normal;
   }
+
+  .anton-regular {
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+  }
+  

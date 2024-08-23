@@ -14,10 +14,11 @@ module.exports = {
       },
 
       colors: {
-        'text': '#110909',
-        'background': '#ffffff',
-        'primary': '#2e2e2e',
-        'secondary': '#cfcfcf',
+        'font-pri': '#110909',
+        'font-sec': '#4d4d4d',
+        'background_pri': '#ffffff',
+        'surf_pri': '#1d1d1d',
+        'surf_sec': '#cfcfcf',
         'accent': '#7ca3bb',
        },
        

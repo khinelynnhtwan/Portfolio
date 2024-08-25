@@ -692,6 +692,10 @@ video {
   height: 100%;
 }
 
+.w-9{
+  width: 2.25rem;
+}
+
 .w-\[100\%\]{
   width: 100%;
 }
@@ -744,8 +748,8 @@ video {
   width: 60%;
 }
 
-.w-\[70\%\]{
-  width: 70%;
+.w-\[600px\]{
+  width: 600px;
 }
 
 .w-\[75px\]{
@@ -768,12 +772,8 @@ video {
   width: 100%;
 }
 
-.w-\[\]{
-  width: ;
-}
-
-.w-\[600px\]{
-  width: 600px;
+.min-w-\[50px\]{
+  min-width: 50px;
 }
 
 .max-w-\[1200px\]{
@@ -1248,24 +1248,6 @@ body {
     margin: 0px;
   }
 
-  .max-sm\:m-6{
-    margin: 1.5rem;
-  }
-
-  .max-sm\:m-auto{
-    margin: auto;
-  }
-
-  .max-sm\:mx-10{
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-  }
-
-  .max-sm\:mx-3{
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
-  }
-
   .max-sm\:mx-1{
     margin-left: 0.25rem;
     margin-right: 0.25rem;
@@ -1287,16 +1269,8 @@ body {
     width: 100%;
   }
 
-  .max-sm\:w-\[1500px\]{
-    width: 1500px;
-  }
-
   .max-sm\:w-\[200px\]{
     width: 200px;
-  }
-
-  .max-sm\:w-\[100\]{
-    width: 100;
   }
 
   .max-sm\:-rotate-0{
@@ -1316,14 +1290,6 @@ body {
     justify-content: center;
   }
 
-  .max-sm\:justify-between{
-    justify-content: space-between;
-  }
-
-  .max-sm\:justify-evenly{
-    justify-content: space-evenly;
-  }
-
   .max-sm\:overflow-scroll{
     overflow: scroll;
   }
@@ -1333,14 +1299,14 @@ body {
     padding-right: 0px;
   }
 
+  .max-sm\:px-2{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .max-sm\:px-5{
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-  }
-
-  .max-sm\:px-56{
-    padding-left: 14rem;
-    padding-right: 14rem;
   }
 
   .max-sm\:py-28{
@@ -1348,29 +1314,9 @@ body {
     padding-bottom: 7rem;
   }
 
-  .max-sm\:px-40{
-    padding-left: 10rem;
-    padding-right: 10rem;
-  }
-
-  .max-sm\:px-6{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
-  .max-sm\:px-2{
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
-  .max-sm\:px-28{
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
-
-  .max-sm\:px-20{
-    padding-left: 5rem;
-    padding-right: 5rem;
+  .max-sm\:px-1{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
   .max-sm\:text-center{

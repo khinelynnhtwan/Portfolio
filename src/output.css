@@ -748,14 +748,6 @@ video {
   width: 60%;
 }
 
-.w-\[600px\]{
-  width: 600px;
-}
-
-.w-\[75px\]{
-  width: 75px;
-}
-
 .w-\[80\%\]{
   width: 80%;
 }
@@ -772,12 +764,20 @@ video {
   width: 100%;
 }
 
+.min-w-\[500px\]{
+  min-width: 500px;
+}
+
 .min-w-\[50px\]{
   min-width: 50px;
 }
 
 .max-w-\[1200px\]{
   max-width: 1200px;
+}
+
+.max-w-\[75px\]{
+  max-width: 75px;
 }
 
 .max-w-sm{
@@ -793,8 +793,8 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.grid-rows-4{
-  grid-template-rows: repeat(4, minmax(0, 1fr));
+.grid-rows-3{
+  grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
 .flex-wrap{
@@ -823,6 +823,10 @@ video {
 
 .gap-14{
   gap: 3.5rem;
+}
+
+.gap-4{
+  gap: 1rem;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]){
@@ -981,6 +985,11 @@ video {
   padding-right: 14rem;
 }
 
+.px-72{
+  padding-left: 18rem;
+  padding-right: 18rem;
+}
+
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1004,11 +1013,6 @@ video {
 .py-20{
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .py-5{
@@ -1050,10 +1054,6 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.pb-4{
-  padding-bottom: 1rem;
-}
-
 .pb-5{
   padding-bottom: 1.25rem;
 }
@@ -1064,6 +1064,10 @@ video {
 
 .pt-24{
   padding-top: 6rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
 }
 
 .text-center{
@@ -1180,6 +1184,10 @@ video {
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
+* {
+  scrollbar-width: auto;
+}
+
 body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
@@ -1269,8 +1277,8 @@ body {
     width: 100%;
   }
 
-  .max-sm\:w-\[200px\]{
-    width: 200px;
+  .max-sm\:min-w-\[170px\]{
+    min-width: 170px;
   }
 
   .max-sm\:-rotate-0{
@@ -1286,8 +1294,8 @@ body {
     align-items: center;
   }
 
-  .max-sm\:justify-center{
-    justify-content: center;
+  .max-sm\:overflow-hidden{
+    overflow: hidden;
   }
 
   .max-sm\:overflow-scroll{
@@ -1299,9 +1307,9 @@ body {
     padding-right: 0px;
   }
 
-  .max-sm\:px-2{
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+  .max-sm\:px-1{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
   .max-sm\:px-5{
@@ -1309,18 +1317,22 @@ body {
     padding-right: 1.25rem;
   }
 
+  .max-sm\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .max-sm\:py-28{
     padding-top: 7rem;
     padding-bottom: 7rem;
   }
 
-  .max-sm\:px-1{
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-  }
-
   .max-sm\:text-center{
     text-align: center;
+  }
+
+  .max-sm\:text-right{
+    text-align: right;
   }
 
   .max-sm\:text-3xl{

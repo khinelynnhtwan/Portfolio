@@ -16,7 +16,7 @@
       class="flex bg-background_pri/90 backdrop-blur-lg text-text border-b border-slate-300/50 sticky top-0 z-[10]"
     >
       <div
-        class="w-[1200px] m-auto justify-between overflow-hidden flex items-center max-sm:px-5"
+        class="w-[1200px] m-auto justify-between flex items-center max-sm:px-5 overflow-hidden"
       >
         <img class="size-10" src="./img/messenger.png" alt="" />
         <div class="w-[550px] flex justify-between items-center max-sm:hidden">
@@ -242,27 +242,30 @@
 
     <!-- */projects /* -->
 
-    <div class="bg-background_pri w-full overflow-hidden">
+    <div class="bg-background_pri w-full max-sm:overflow-hidden">
       <div class="max-w-[1200px] m-auto py-12 max-sm:px-0">
         <h1 class="text-4xl pb-12 font-bold text-center">Projects</h1>
         <div class="m-auto max-sm:text-center max-sm:m-0">
           
-          <div class="flex justify-between w-[600px] m-auto max-sm:justify-center max-sm:overflow-scroll">
-            <div class="text-center py-2 max-sm:w-[200px] max-sm:mx-1">
+          <div class="flex justify-between m-auto max-w-[1200px] min-w-[500px] px-72 max-sm:overflow-scroll max-sm:px-8 max-sm:text-right">
+            <div class="max-sm:min-w-[170px] text-center py-2">
               <a href="" class="text-xl font-medium">Graphic Design</a>
-              <div class="w-[75px] m-auto p-[2px] mt-2 bg-gray-500 rounded-full"></div>
+              <div class="max-w-[75px] m-auto p-[2px] mt-2 bg-gray-500 rounded-full"></div>
             </div>
-            <div class="text-center py-2 max-sm:w-[200px] max-sm:mx-1">
+            <div class="max-sm:min-w-[170px] text-center py-2 max-sm:mx-1">
               <a href="" class="text-xl font-medium">UI/UX Design</a>
-              <div class="w-[75px] m-auto p-[2px] mt-2 bg-gray-500 rounded-full"></div>
+              <div class="max-w-[75px] m-auto p-[2px] mt-2 bg-gray-500 rounded-full"></div>
             </div>
-            <div class="text-center py-2 max-sm:w-[200px] max-sm:mx-1">
+            <div class="max-sm:min-w-[170px] text-center py-2 max-sm:mx-1">
               <a href="" class="text-xl font-medium">Web Developing</a>
-              <div class="w-[75px] m-auto p-[2px] mt-2 bg-gray-500 rounded-full"></div>
+              <div class="max-w-[75px] m-auto p-[2px] mt-2 bg-gray-500 rounded-full"></div>
             </div>
           </div>
 
-          <div class="grid grid-cols-3 grid-rows-4 max-sm:grid-cols-1 max-sm:px-1">
+          <div class="grid grid-cols-3 grid-rows-3 max-sm:grid-cols-1 max-sm:px-1">
+            <img src="./img/earth.jpg" alt="" class="p-2 rounded-xl" />
+            <img src="./img/earth.jpg" alt="" class="p-2 rounded-xl" />
+            <img src="./img/earth.jpg" alt="" class="p-2 rounded-xl" />
             <img src="./img/earth.jpg" alt="" class="p-2 rounded-xl" />
             <img src="./img/earth.jpg" alt="" class="p-2 rounded-xl" />
             <img src="./img/earth.jpg" alt="" class="p-2 rounded-xl" />
@@ -276,7 +279,7 @@
 
     <!-- */contact me /* -->
 
-    <div class="bg-background_pri text-font-pri w-full overflow-hidden">
+    <div class="bg-gray-200 text-font-pri w-full overflow-hidden">
       <div class="max-w-[1200px] m-auto py-12 px-24 max-sm:px-0">
         <div
           class="text-4xl pb-6 font-bold text-center max-sm:px-0 max-sm:text-3xl"
@@ -291,12 +294,21 @@
           </div>
 
           <div class="text-lg w-[60%] text-justify px-8 max-sm:w-[100%]">
-            <p>
-              As I continue my journey in web development, I am excited about
-              the future and the opportunities that lie ahead.
-              As I continue my journey in web development, I am excited about
-              the future and the opportunities that lie ahead.
-            </p>
+            <div class="">
+              <p class="pb-3">
+                As I continue my journey in web development, I am excited about
+                the future and the opportunities that lie ahead.
+                As I continue my journey in web development, I am excited about
+                the future and the opportunities that lie ahead.
+              </p>
+              <div class="flex gap-4">
+                <a href="" class="text-xl font-medium">Email</a>
+                <a href="" class="text-xl font-medium">Phone</a>
+                <a href="" class="text-xl font-medium">Github</a>
+                <a href="" class="text-xl font-medium">Facebook</a>
+              </div>
+             </div>
+
           </div>
         </div>
       </div>
@@ -304,9 +316,9 @@
 
     <!-- */footer /* -->
 
-    <div class="bg-surf_pri w-full text-[#8b8b8b]">
-      <div class="py-4">
-        <div class="flex justify-center space-x-4 pb-4">
+    <div class="bg-surf_pri w-full text-[#8b8b8b] overflow-hidden">
+      <div class="pt-4">
+        <!-- <div class="flex justify-center space-x-4 pb-3">
           <a href="">
             <img src="./img/logo/facebook.svg" alt="" class="rounded-full" />
           </a>
@@ -316,7 +328,7 @@
           <a href="">
             <img src="./img/logo/github.svg" alt="" />
           </a>
-        </div>
+        </div> -->
         <div class="text-sm text-center pb-2 font-poppins">
           Developed by Khine Lynn Htwan
         </div>

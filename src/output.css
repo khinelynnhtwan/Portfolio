@@ -772,14 +772,6 @@ video {
   min-width: 50px;
 }
 
-.min-w-\[800px\]{
-  min-width: 800px;
-}
-
-.min-w-\[600px\]{
-  min-width: 600px;
-}
-
 .max-w-\[1200px\]{
   max-width: 1200px;
 }
@@ -829,12 +821,12 @@ video {
   justify-content: space-between;
 }
 
-.gap-14{
-  gap: 3.5rem;
+.gap-10{
+  gap: 2.5rem;
 }
 
-.gap-4{
-  gap: 1rem;
+.gap-14{
+  gap: 3.5rem;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]){
@@ -1120,11 +1112,6 @@ video {
   line-height: 1.25rem;
 }
 
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
@@ -1290,8 +1277,8 @@ body {
     width: 100%;
   }
 
-  .max-sm\:min-w-\[170px\]{
-    min-width: 170px;
+  .max-sm\:min-w-\[190px\]{
+    min-width: 190px;
   }
 
   .max-sm\:-rotate-0{
@@ -1305,6 +1292,10 @@ body {
 
   .max-sm\:items-center{
     align-items: center;
+  }
+
+  .max-sm\:justify-between{
+    justify-content: space-between;
   }
 
   .max-sm\:overflow-hidden{
@@ -1325,14 +1316,19 @@ body {
     padding-right: 0.25rem;
   }
 
+  .max-sm\:px-14{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
   .max-sm\:px-5{
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
 
-  .max-sm\:px-8{
-    padding-left: 2rem;
-    padding-right: 2rem;
+  .max-sm\:px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .max-sm\:py-28{
@@ -1340,54 +1336,16 @@ body {
     padding-bottom: 7rem;
   }
 
-  .max-sm\:px-3{
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-
-  .max-sm\:px-32{
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
-  .max-sm\:px-2{
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
-  .max-sm\:px-20{
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .max-sm\:px-10{
+  .max-sm\:pl-10{
     padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .max-sm\:px-16{
-    padding-left: 4rem;
-    padding-right: 4rem;
   }
 
   .max-sm\:pr-20{
     padding-right: 5rem;
   }
 
-  .max-sm\:pl-20{
-    padding-left: 5rem;
-  }
-
-  .max-sm\:pl-10{
-    padding-left: 2.5rem;
-  }
-
   .max-sm\:text-center{
     text-align: center;
-  }
-
-  .max-sm\:text-right{
-    text-align: right;
   }
 
   .max-sm\:text-3xl{

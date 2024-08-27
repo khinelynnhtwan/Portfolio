@@ -22,9 +22,14 @@ module.exports = {
         'accent': '#7ca3bb',
        },
        
-       
+       container: {
+        center: true,
+        padding: '20px',
+      },
     },
+
   },
+
   plugins: [],
 
 }

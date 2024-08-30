@@ -11,9 +11,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  scrollbar-width: auto;
-}
+
 
 body {
     font-family: "Ubuntu", sans-serif;

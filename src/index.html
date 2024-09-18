@@ -1,55 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./output.css" />
-    <link rel="stylesheet" href="./global.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <script
       src="https://kit.fontawesome.com/cd5ab5d5b3.js"
       crossorigin="anonymous"
     ></script>
+    <script src="../js/main.js"></script>
   </head>
   <body>
     <!-- */ header /* -->
+
     <div
       class="flex bg-background_pri/90 backdrop-blur-lg text-text border-b border-slate-300/50 sticky top-0 z-[10]"
     >
       <div
         class="container max-w-[1200px] justify-between flex items-center overflow-hidden"
       >
-        <img class="size-10" src="./img/messenger.png" alt="" />
+        <img class="size-10" src="./img/logo/KLT.png" alt="" />
         <div class="w-[500px] flex justify-between items-center max-sm:hidden">
           <a id="homeTag" class="py-5 font-poppins font-normal" href="#home"
             >Home</a
           >
-          <a target="_parent" href="#about_me" class="border-b-[3px] py-5 font-poppins font-normal"
+          <a
+            target="_parent"
+            href="#about_me"
+            class="border-b-[3px] py-5 font-poppins font-normal"
             >About Me</a
           >
-          <a target="_parent" href="#projects" class="border-b-[3px] py-5 font-poppins font-normal"
+          <a
+            target="_parent"
+            href="#projects"
+            class="border-b-[3px] py-5 font-poppins font-normal"
             >Projects</a
           >
 
           <div class="flex">
             <a href="#contact_me" target="_parent">
               <button
-                class="font-poppins font-normal bg-surf_pri text-white rounded-full py-[7px] px-4 "
+                class="font-poppins font-normal bg-surf_pri text-white rounded-full py-[7px] px-4"
               >
                 Contact Me
               </button>
-          </a>
+            </a>
           </div>
         </div>
         <img class="hidden max-sm:block ml-2" src="./img/menuIcon.svg" alt="" />
       </div>
     </div>
 
+    <!--pop_up box-->
+    <!-- <div id="pop_up" class="bg-slate-500 w-full h-full max-sm:block absolute top-0 z-10"></div> -->
+
     <!-- */ Hero_Section /* -->
 
     <div class="bg-background text-text overflow-hidden">
-      <div id="home"
+      <div
+        id="home"
         class="container max-w-[1200px] pt-24 pb-28 text-center max-sm:py-28"
       >
         <div
@@ -84,7 +99,6 @@
       </div>
     </div>
 
-
     <!-- */ About Me /*-->
     <div id="about_me" class="bg-surf_pri text-[#f4f4f4] overflow-hidden">
       <div class="container max-w-[1200px] lg:px-48 py-20">
@@ -96,14 +110,8 @@
         </p>
 
         <div class="flex flex-wrap justify-between">
-          <div
-            class="content-center pb-8 rounded-lg md:w-[40%] md:-rotate-2"
-          >
-            <img
-              src="./img/klt.jpg"
-              alt=""
-              class="rounded-xl min-w-[100%]"
-            />
+          <div class="content-center pb-8 rounded-lg md:w-[40%] md:-rotate-2">
+            <img src="./img/klt.jpg" alt="" class="rounded-xl min-w-[100%]" />
           </div>
 
           <div class="text-lg text-justify md:w-[50%]">
@@ -114,28 +122,30 @@
               <div class="mb-1">
                 <div class="flex">
                   <div class="min-w-[50px] content-center">
-                    <img src="./img/graduate.svg" alt="" class="w-9">
+                    <img src="./img/graduate.svg" alt="" class="w-9" />
                   </div>
                   <div class="pb-2">
                     <h3 class="text-base font-medium text-surf_sec">
                       Sittwe University
                     </h3>
                     <p class="text-base text-surf_sec">
-                      B.A (Myanmar) - <span class="text-green-500">(2014 ~ 2018)</span>
+                      B.A (Myanmar) -
+                      <span class="text-green-500">(2014 ~ 2018)</span>
                     </p>
                   </div>
                 </div>
 
                 <div class="flex">
                   <div class="min-w-[50px] content-center">
-                    <img src="./img/graduate.svg" alt="" class="w-9">
+                    <img src="./img/graduate.svg" alt="" class="w-9" />
                   </div>
                   <div class="pb-2">
                     <h3 class="text-base font-medium text-surf_sec">
                       Y-Max University
                     </h3>
                     <p class="text-surf_sec text-base text-justify">
-                      Diploma in Software Engineering - <span class="text-green-500">(Aug 2019 ~ Aug 2023)</span>
+                      Diploma in Software Engineering -
+                      <span class="text-green-500">(Aug 2019 ~ Aug 2023)</span>
                     </p>
                   </div>
                 </div>
@@ -150,42 +160,45 @@
               <div class="mb-1">
                 <div class="flex">
                   <div class="min-w-[50px] content-center">
-                    <img src="./img/work.svg" alt="" class="w-9">
+                    <img src="./img/work.svg" alt="" class="w-9" />
                   </div>
                   <div class="pb-2">
                     <h3 class="text-base font-medium text-surf_sec">
                       Sale & Marketing
                     </h3>
                     <p class="text-surf_sec text-base">
-                      City Mark by Marketplace - <span class="text-green-500">(2016 ~ 2017)</span>
+                      City Mark by Marketplace -
+                      <span class="text-green-500">(2016 ~ 2017)</span>
                     </p>
                   </div>
                 </div>
 
                 <div class="flex">
                   <div class="min-w-[50px] content-center">
-                    <img src="./img/work.svg" alt="" class="w-9">
+                    <img src="./img/work.svg" alt="" class="w-9" />
                   </div>
                   <div class="pb-2">
                     <h3 class="text-base font-medium text-surf_sec">
                       Printings & Designs
                     </h3>
                     <p class="text-base text-surf_sec">
-                      Graphic Designer - <span class="text-green-500">(2017 ~ 2018)</span>
+                      Graphic Designer -
+                      <span class="text-green-500">(2017 ~ 2018)</span>
                     </p>
                   </div>
                 </div>
 
                 <div class="flex">
                   <div class="min-w-[50px] content-center">
-                    <img src="./img/work.svg" alt="" class="w-9">
+                    <img src="./img/work.svg" alt="" class="w-9" />
                   </div>
                   <div class="pb-2">
                     <h3 class="text-base font-medium text-surf_sec">
                       International Language & Business Center
                     </h3>
                     <p class="text-base text-surf_sec">
-                      Graphic Design & UI/UX Designer - <span class="text-green-500">(Feb 2019 Present)</span>
+                      Graphic Design & UI/UX Designer -
+                      <span class="text-green-500">(Feb 2019 Present)</span>
                     </p>
                   </div>
                 </div>
@@ -197,7 +210,7 @@
 
               <div class="flex">
                 <div class="min-w-[50px] content-center">
-                  <img src="./img/lamp.svg" alt="" class="w-9">
+                  <img src="./img/lamp.svg" alt="" class="w-9" />
                 </div>
                 <div class="pb-2">
                   <h3 class="text-base font-medium text-surf_sec">
@@ -211,7 +224,7 @@
 
               <div class="flex">
                 <div class="min-w-[50px] content-center">
-                  <img src="./img/lamp.svg" alt="" class="w-9">
+                  <img src="./img/lamp.svg" alt="" class="w-9" />
                 </div>
                 <div class="pb-2">
                   <h3 class="text-base font-medium text-surf_sec">
@@ -225,7 +238,7 @@
 
               <div class="flex">
                 <div class="min-w-[50px] content-center">
-                  <img src="./img/lamp.svg" alt="" class="w-9">
+                  <img src="./img/lamp.svg" alt="" class="w-9" />
                 </div>
                 <div class="pb-2">
                   <h3 class="text-base font-medium text-surf_sec">
@@ -248,31 +261,35 @@
       <div id="projects" class="container max-w-[1200px] py-20">
         <h1 class="text-4xl pb-12 font-bold text-center">Projects</h1>
         <div class="">
-          
           <div class="flex justify-between lg:px-56 overflow-auto pb-7">
             <div class="min-w-[230px] text-center py-2">
               <a href="" class="text-xl font-medium">Graphic Design</a>
-              <div class="w-[60px] p-[2px] m-auto mt-2 bg-gray-500 rounded-full"></div>
+              <div
+                class="w-[60px] p-[2px] m-auto mt-2 bg-gray-500 rounded-full"
+              ></div>
             </div>
             <div class="min-w-[230px] text-center py-2">
               <a href="" class="text-xl font-medium">UI/UX Design</a>
-              <div class="w-[60px] p-[2px] m-auto mt-2 bg-gray-500 rounded-full"></div>
+              <div
+                class="w-[60px] p-[2px] m-auto mt-2 bg-gray-500 rounded-full"
+              ></div>
             </div>
             <div class="min-w-[230px] text-center py-2">
               <a href="" class="text-xl font-medium">Web Developing</a>
-              <div class="w-[60px] p-[2px] m-auto mt-2 bg-gray-500 rounded-full"></div>
+              <div
+                class="w-[60px] p-[2px] m-auto mt-2 bg-gray-500 rounded-full"
+              ></div>
             </div>
           </div>
 
           <div class="grid gap-4 grid-cols-1 md:grid-cols-3">
-            <img src="./img/earth.jpg" alt="" class=" rounded-xl" />
-            <img src="./img/earth.jpg" alt="" class=" rounded-xl" />
-            <img src="./img/earth.jpg" alt="" class=" rounded-xl" />
-            <img src="./img/earth.jpg" alt="" class=" rounded-xl" />
-            <img src="./img/earth.jpg" alt="" class=" rounded-xl" />
-            <img src="./img/earth.jpg" alt="" class=" rounded-xl" />
+            <img src="./img/earth.jpg" alt="" class="rounded-xl" />
+            <img src="./img/earth.jpg" alt="" class="rounded-xl" />
+            <img src="./img/earth.jpg" alt="" class="rounded-xl" />
+            <img src="./img/earth.jpg" alt="" class="rounded-xl" />
+            <img src="./img/earth.jpg" alt="" class="rounded-xl" />
+            <img src="./img/earth.jpg" alt="" class="rounded-xl" />
           </div>
-
         </div>
       </div>
     </div>
@@ -281,42 +298,51 @@
 
     <div class="bg-gray-200 text-font-pri overflow-hidden">
       <div id="contact_me" class="container max-w-[1200px] py-12">
-        <div
-          class="text-4xl font-bold text-center pb-6"
-        >
-          Contact Me
-        </div>
+        <div class="text-4xl font-bold text-center pb-6">Contact Me</div>
         <div class="md:px-14 flex flex-wrap items-top justify-between">
-          <div
-            class="w-[100%] md:w-[50%] lg:w-[45%] rounded-lg"
-          >
+          <div class="w-[100%] md:w-[50%] lg:w-[45%] rounded-lg pb-6">
             <img src="./img/contact.png" alt="" />
           </div>
 
-          <div class="text-lg w-[100%] md:w-[45%] lg:w-[50%] md:content-center text-justify">
+          <div
+            class="text-lg w-[100%] md:w-[45%] lg:w-[50%] md:content-center text-justify"
+          >
             <div class="">
               <p class="pb-3">
                 As I continue my journey in web development, I am excited about
-                the future and the opportunities that lie ahead.
-                As I continue my journey in web development, I am excited about
-                the future and the opportunities that lie ahead.
+                the future and the opportunities that lie ahead. As I continue
+                my journey in web development, I am excited about the future and
+                the opportunities that lie ahead.
               </p>
-              <div class="flex px-16 justify-between md:justify-start md:px-0 md:gap-8">
+              <div
+                class="flex px-16 justify-between md:justify-start md:px-0 md:gap-8"
+              >
                 <a href="mailto:khinelynnhtwan@gmail.com" class="">
                   <i class="fa-xl fa-solid fa-envelope"></i>
                 </a>
-                <a target="_blank" href="https://www.linkedin.com/in/khinelynnhtwan/" class="">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/khinelynnhtwan/"
+                  class=""
+                >
                   <i class="fa-xl fa-brands fa-linkedin"></i>
                 </a>
-                <a target="_blank" href="https://github.com/khinelynnhtwan" class="">
+                <a
+                  target="_blank"
+                  href="https://github.com/khinelynnhtwan"
+                  class=""
+                >
                   <i class="fa-xl fa-brands fa-github"></i>
                 </a>
-                <a target="_blank" href="https://www.facebook.com/khinelynn.htwan/" class="">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/khinelynn.htwan/"
+                  class=""
+                >
                   <i class="fa-xl fa-brands fa-facebook"></i>
                 </a>
               </div>
-             </div>
-
+            </div>
           </div>
         </div>
       </div>
@@ -342,6 +368,5 @@
         </div>
       </div>
     </div>
-    
   </body>
 </html>
